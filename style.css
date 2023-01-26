@@ -2,6 +2,9 @@ body {
     background-color: greenyellow;
 }
 
+h1 {
+    color: blue;
+}
 section {
     height: 100px;
     width: 100%;
@@ -10,3 +13,13 @@ section {
     justify-content: center;
 }
 
+button {
+    color: hotpink;
+    position: absolute;
+    top: 50%;
+}
+
+button:hover {
+      background-color:#002ead;
+      transition: 0.1s;
+  }
