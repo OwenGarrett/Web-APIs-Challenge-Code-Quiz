@@ -4,6 +4,8 @@ body {
 
 h1 {
     color: blue;
+    display: flex;
+    align-items: flex-start;
 }
 section {
     height: 100px;
@@ -14,12 +16,12 @@ section {
 }
 
 button {
-    color: hotpink;
+    color: rgb(2, 2, 2);
     position: absolute;
     top: 50%;
 }
 
 button:hover {
-      background-color:#002ead;
+      background-color:#f10915;
       transition: 0.1s;
   }
