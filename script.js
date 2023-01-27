@@ -1,3 +1,12 @@
+// Variables 
+var startBtn = document.querySelector("#start_button");
+var introPage =document.querySelector("#intro_page");
+var questionsPage =document.querySelector("#questions_page");
+var submitPage =document.querySelector("#submit_page");
+var savedHighScores =document.querySelector("#saved_highscores")
+
+
+// Function to display 60 second countdown clock 
 const timeH = document.querySelector('h1');
 let timeSeconds = 60;
 
