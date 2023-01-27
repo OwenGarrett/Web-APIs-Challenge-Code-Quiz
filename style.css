@@ -15,6 +15,10 @@ section {
     justify-content: center;
 }
 
+div {
+    background-color: #f10915;
+}
+
 button {
     color: rgb(2, 2, 2);
     position: absolute;
@@ -22,6 +26,13 @@ button {
 }
 
 button:hover {
-      background-color:#f10915;
+      background-color:#09a7f1;
       transition: 0.1s;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(26, 11, 245);
+    color: rgb(250, 181, 6);
   }

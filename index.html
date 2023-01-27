@@ -15,17 +15,51 @@
 
       <!--Introduction Container-->
     </section>
+    <main>
     <section class="intro_page" id="intro_page">
         <div id="intro">
             <h1>Coding Quiz Challenge</h1>
             <p id="rules">You will have 60 seconds to complete the quiz.</p>
-            <button class="button" id="start_button">Begin Quiz</button>
+            <button class="button" id="start_button">Start Quiz</button>
         </div>
     </section>
 
     <!-- Questions Container -->
-
+    <section class="questions_page" id="questions_page">
+        <div>
+            <div>
+                <h2 id ="questions">Questions</h2>
+                        <ul>
+                            <li><button class ="choices button" id="answer_btn1" value="a">A</button></li>
+                            <li><button class ="choices button" id="answer_btn2" value="b">B</button></li>
+                            <li><button class ="choices button" id="answer_btn3" value="c">C</button></li>
+                            <li><button class ="choices button" id="answer_btn4" value="d">D</button></li>
+            </div>
+        </div>
+    </section>
     
+     <!-- Score Container section-->
+     <section class="submit_page" id="submit_page">
+        <div>
+            <h2 id="finish">Mission Complete</h2>
+            <p id = "final_score">Final Score:</p>
+            <p>Initials:
+                <input id="initial">
+                <button class="button" id="submit_btn">Submit</button>
+            </p>
+        </div>
+    </section>
+
+    <!-- Saved High Scores section -->
+    <section class="saved_highscores" id="saved_highscores">
+        <div>
+        <h3>Coding Quiz Hall of Fame</h3>
+        <div id="saved_score"<p>Your Score</p>></div>
+    </section>
+    </main>
+    <footer>
+        <p>Made for your enjoyment by Owen Garrett</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
