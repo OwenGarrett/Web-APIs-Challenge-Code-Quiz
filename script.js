@@ -6,6 +6,40 @@ var submitPage =document.querySelector("#submit_page");
 var savedHighScores =document.querySelector("#saved_highscores")
 
 
+   //Define questions (Object)
+   var questionArray = [
+    {
+        question: "What does CSS stand for?",
+        choices: ["A. Cascading Style Sheets", "B. Cascading Syntax Sheet", "C. Charlie Stole Something", "D. Cascading Sheets Syntax"],
+        answer: "A"
+    },
+    {
+        question: "What does HTML stand for?",
+        choices: ["A. wHo Took My Lunch?", "B. HyperText Markup Language", "C. Absolutely nothing maaan!", "D. HyperText Markup Lingustics"],
+        answer: "B"
+    },
+    {
+        question: "__ is the format used for storing and transporting data.",
+        choices: ["A. JSON", "B. HTML", "C. CSS", "D. README"],
+        answer: "A"
+    },
+    {
+        question: "A <p> element is used in which programming language?",
+        choices: ["A. CSS", "B. JavaScript", "C. Java", "D. HTML"],
+        answer: "D"
+    },
+    {
+        question: "What do arrays do in JavaScript?",
+        choices: ["A. Not much", "B. Store Multiple Values in a single variable", "C. Define things", "D. A lot"],
+        answer: "B"
+    },
+    
+   
+];
+
+// Generate Quiz Function 
+function generateQuiz(questions, quizContainer, resultsContainer, submitButton)
+
 // Function to display 60 second countdown clock 
 const timeH = document.querySelector('h1');
 let timeSeconds = 60;
